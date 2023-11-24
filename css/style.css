@@ -1,0 +1,47 @@
+body{
+ background-color: rgb(246, 246, 147)   
+}
+.box{
+    max-width: 540px;
+    margin: 10px auto 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    bottom: 10px;
+    background-color: black;
+    background-image: url(../images/bus2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box1{
+    max-width: 640px;
+    margin: 10px auto 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    bottom: 10px;
+    background-image: url(../images/bus2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bgimage{
+    background-image: url(../images/bus1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form-center{
+    margin-left: 30px;
+}
+.card-margen{
+    margin-top: 20px;
+}
+.profile{
+    list-style: none;
+    padding-left:70%;
+    color: white;
+}
+.tbl{
+    width: 640px;
+}

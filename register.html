@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="bg-dark">
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>  
+    <!-- end navbar -->
+    <div class="box">
+        <form id="Register" class="form-center">
+            <div class="text-center text-danger">
+                <h2 class="text-black-50">CREATE ACCOUNT</h2>
+              </div>
+            <div class="col-11">
+                <label class="text-white">Name</label>
+                <input type="text" class="form-control" id="name"placeholder="Enter Name">
+                <label id="error" class="text-danger"></label>
+              </div>
+            <div class="col-11">
+              <label class="text-white">Email address</label>
+              <input type="email" class="form-control" id="email"placeholder="Enter email">
+              <label id="error1" class="text-danger"></label>
+            </div>
+            <div class="col-11">
+              <label class="text-white">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password">
+              <label id="error2" class="text-danger"></label>
+            </div><br>
+            <div class="offset-4">
+                <button type="button" class="btn btn-primary" onclick="register()">Register</button>
+            </div>
+          </form>
+    </div>
+    <script src="js/register.js"></script>  
+</body>
+</html>
