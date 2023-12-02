@@ -1,3 +1,4 @@
+
 body{
  background-color: rgb(246, 246, 147)   
 }
@@ -39,9 +40,9 @@ body{
 }
 .profile{
     list-style: none;
-    padding-left:70%;
+    padding-left:39%;
     color: white;
 }
 .tbl{
-    width: 640px;
+    padding: 10px;
 }
